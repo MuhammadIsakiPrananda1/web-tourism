@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LOKARA | Perjalanan Jauh Membawa Cerita
 
-## Getting Started
+![LOKARA Banner](/public/lokara_logo.webp)
 
-First, run the development server:
+**LOKARA** adalah platform pariwisata premium yang dirancang untuk memberikan pengalaman penjelajahan Indonesia yang elegan, modern, dan tak terlupakan. Dengan fokus pada estetika *glassmorphism* dan interaksi yang halus, LOKARA menghadirkan kemudahan dalam merencanakan perjalanan impian Anda.
 
+## ✨ Fitur Utama
+
+- 💎 **Desain Premium**: Antarmuka berbasis *Glassmorphism* dengan palet warna Gold & Navy yang elegan.
+- 🚀 **Performa Tinggi**: Dibangun dengan Next.js dan Turbopack untuk kecepatan maksimal.
+- 📱 **Fully Responsive**: Pengalaman pengguna yang konsisten di semua perangkat (Desktop, Tablet, Mobile).
+- 🔐 **Sistem Autentikasi Modern**: Modal Login & Register yang interaktif dengan fitur penguncian scroll latar belakang.
+- 🔔 **Notifikasi Branded**: Sistem Toast kustom dengan branding LOKARA untuk umpan balik sukses/error yang informatif.
+- 📦 **Modal Informasi Terintegrasi**: Akses cepat ke Pusat Bantuan, FAQ, dan Kebijakan Privasi tanpa perlu reload halaman.
+- 🎨 **Animasi Halus**: Menggunakan Framer Motion untuk transisi dan interaksi mikro yang memanjakan mata.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Fonts**: [Quicksand](https://fonts.google.com/specimen/Quicksand)
+
+## 🚀 Memulai Project
+
+### Prasyarat
+- Node.js 18.x atau versi terbaru
+- npm atau yarn
+
+### Instalasi
+1. Clone repositori ini:
+   ```bash
+   git clone [url-repositori]
+   ```
+2. Masuk ke direktori project:
+   ```bash
+   cd web-tourism
+   ```
+3. Install dependensi:
+   ```bash
+   npm install
+   ```
+
+### Menjalankan Server Development
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Struktur Folder Utama
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `src/app`: Routing utama dan metadata aplikasi.
+- `src/components/layout`: Komponen global seperti Navbar dan Footer.
+- `src/components/auth`: Logika dan UI untuk sistem autentikasi.
+- `src/components/ui`: Komponen UI reusable (Modal, Toast, dll).
+- `public`: Aset statis seperti logo dan favicon.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 Lisensi
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 LOKARA. All rights reserved.
