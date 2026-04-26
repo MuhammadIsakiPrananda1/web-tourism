@@ -32,7 +32,7 @@
 ### Instalasi
 1. Clone repositori ini:
    ```bash
-   git clone [url-repositori]
+   git clone https://github.com/MuhammadIsakiPrananda1/web-tourism
    ```
 2. Masuk ke direktori project:
    ```bash
