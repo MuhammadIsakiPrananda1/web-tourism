@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Card from "@/components/ui/Card";
 import Dropdown from "@/components/ui/Dropdown";
-
 import Skeleton from "@/components/ui/Skeleton";
 
 interface Activity {

@@ -26,11 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id">
-      <body className={`${quicksand.className} min-h-screen bg-lokara-navy text-ivory flex flex-col antialiased`}>
-        <Navbar />
-        <main className="flex-1 bg-lokara-navy">{children}</main>
+      <body className={`${quicksand.className} min-h-screen bg-lokara-navy text-ivory antialiased`}>
+        {children}
         <ToastContainer />
-        <Footer />
       </body>
     </html>
   );
